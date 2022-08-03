@@ -1009,7 +1009,8 @@ outputdir='data/jsi_contexts/'
 
 # preprocessed files
 #outputdir = 'data/'
-
+# in cloud pdf save is not possible
+cloud=True
 
 
 lang_corresp ={'fra_jsi_newsfeed_virt':'French','spa_jsi_newsfeed_virt':'Spanish'}
@@ -1084,7 +1085,7 @@ if word != 'Choose a lexeme' and corpus != 'Choose a corpus':
                     'right_w5','right_l5', 'right_p5',
                     'url',]
 
-            if False:
+            if cloud:
                 with st.expander("Metadata Analysis"):
                     col1, col2  = st.columns(2)
                     with col1:
@@ -1208,7 +1209,7 @@ if word != 'Choose a lexeme' and corpus != 'Choose a corpus':
                     'right_w5','right_l5', 'right_p5',
                     'url',]
 
-            if False:
+            if cloud:
                 with st.expander("Metadata Analysis"):
                     st.info(corpus + ": "+ str(total_sent1) + " sentences")
                     plot_meta_info(df1)
