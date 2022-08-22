@@ -33,7 +33,7 @@ To retrieve the JSI Timestamped web corpus contexts for each word (or other word
 
 ## Credits
 
-- Linguistic data (words): [Natalia Soler](https://www.lattice.cnrs.fr/membres/doctorants/natalia-soler/){:target="_blank"}                                                                                                                                                                                                        
+- Linguistic data (words): [Natalia Soler](https://www.lattice.cnrs.fr/membres/doctorants/natalia-soler/)                                                                                                                                                                                                        
 
 - Linguistic data (word contexts): [JSI Timestamped web corpus](https://www.sketchengine.eu/jozef-stefan-institute-newsfeed-corpus/)
                                                                                                                                                                                                           
